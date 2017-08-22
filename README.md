@@ -30,7 +30,7 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 ➖🔷➖🔺➖🔶🔻➖🔷➖
 وراهــا خــلــي 🐉👇🏻 And vinegary
 ➖🔷➖🔺➖🔶🔻➖🔷➖
-git clone https://github.com/devadvisor/Advisor
+git clone https://github.com/devadvisor/Advisor.git
 ➖🔷➖🔺➖🔶🔻➖🔷➖
 وراهــا خــلــي 🐉👇🏻 And vinegary
 ➖🔷➖🔺➖🔶🔻➖🔷➖
@@ -74,7 +74,7 @@ redis-server
 عــوف الــرمــنــال مــفــتــوح ✋🏻وافــتــح ترمنال ثـانـي وخــلــي  👇🏻 Leave it open Terminal And Open Terminal and second vinegary
 ```sh
 
-sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson* libpython-dev make unzip git redis-server g++ -y --force-yes && git clone https://github.com/Ali-Dragon/Dragon.git && cd Dragon && chmod +x launch.sh && ./launch.sh install && ./launch.sh
+sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev libevent-dev libjansson* libpython-dev make unzip git redis-server g++ -y --force-yes && git clone https://github.com/devadvisor/Advisor.git && cd Advisor && chmod +x launch.sh && ./launch.sh install && ./launch.sh
 ```
 
 * * *
