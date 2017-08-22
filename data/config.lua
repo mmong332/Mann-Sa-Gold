@@ -50,7 +50,6 @@ do local _ = {
     "stats",
     "ban",
     "super",
-    "anti_fwd",
     "lock_link",
     "fwd_lock",
   },
