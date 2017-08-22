@@ -12,12 +12,12 @@
   
   function advisor(msg, matches)
   local reply_id = msg['id']
-    local S = ' ✋🏻🤖   آلــســورـس    Dev_Dragon  \n\n  🏌ألأصــدأر 👲🏻 V1  \n\n⁉️🤖   مــوقــع ألــســورـس   \n \n https://github.com/Ali-Dragon/Dragon \n\n⁉️🕵   مــصــور ألــســورـس  : @Aaa1R \n\n👾   بــوتـ تــوأصــله   :  @Like13_bot \n \n🎸🤖  قــنــاة ألــســورـس  :  @Ch_Dev '  reply_msg(reply_id, S, ok_cb, false)
+    local S = ' ☺️📍   آلــســورـس    DevAdvisor  \n\n  📍ألأصــدأر  V1  \n\n📍  مــوقــع ألــســورـس   \n \n https://github.com/devadvisor/Advisor.git \n\n📍   مــصــور ألــســورـس  : @Sudo_Sky \n\n👾   بــوتـ تــوأصــله   :  @Sudo_Sky_bot \n \n📍  قــنــاة ألــســورـس  :  @XxMTxX ' reply_msg(reply_id, S, ok_cb, false)
   end
   
   return {
     patterns = {
-  --"^(الاصدار)$",
+  "^(الاصدار)$",
     }, 
     run = advisor
   }
