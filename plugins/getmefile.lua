@@ -1,0 +1,27 @@
+--[[
+    _    ______     _____ ____   ___  ____  
+   / \  |  _ \ \   / /_ _/ ___| / _ \|  _ \ 
+  / _ \ | | | \ \ / / | |\___ \| | | | |_) |
+ / ___ \| |_| |\ V /  | | ___) | |_| |  _ < 
+/_/   \_\____/  \_/  |___|____/ \___/|_| \_\
+                                            
+
+--]]
+local function run(msg, matches)
+  if matches[1] == "جلب ملف" then
+    local file = matches[2]
+    if is_sudo(msg) then --sudo only !
+      local receiver = get_receiver(msg)
+      send_document(receiver, "./plugins/"..file..".lua", ok_cb, false)
+      else 
+        return nil
+    end
+  end
+end
+
+return {
+  patterns = {
+  "^(جلب ملف) (.*)$"
+  },
+  run = run
+}
