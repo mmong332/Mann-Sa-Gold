@@ -30,11 +30,11 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 ➖🔷➖🔺➖🔶🔻➖🔷➖
 وراهــا خــلــي 🐉👇🏻 And vinegary
 ➖🔷➖🔺➖🔶🔻➖🔷➖
-git clone https://github.com/Ali-Dragon/Dragon.git
+git clone https://github.com/devadvisor/Advisor
 ➖🔷➖🔺➖🔶🔻➖🔷➖
 وراهــا خــلــي 🐉👇🏻 And vinegary
 ➖🔷➖🔺➖🔶🔻➖🔷➖
-cd Dragon
+cd Advisor
 ➖🔷➖🔺➖🔶🔻➖🔷➖
 وراهــا خــلــي 🐉👇🏻 And vinegary
 ➖🔷➖🔺➖🔶🔻➖🔷➖
