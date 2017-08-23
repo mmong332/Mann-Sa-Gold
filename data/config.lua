@@ -52,6 +52,8 @@ do local _ = {
     "super",
     "lock_link",
     "fwd_lock",
+    "lock_tag",
+    "lock_user", 
   },
   help_text = "[[ْ#DEV @Sudo_Sky]],",
   help_text_realm = "[[ْ#BOT_DEV @Sudo_Sky_bot]],",
