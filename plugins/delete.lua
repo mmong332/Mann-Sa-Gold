@@ -17,7 +17,7 @@ local function history(extra, suc, result)
 send_msg(extra.chatid, 'اوك مسـحت رسايـل الكـروب ☺️📍', ok_cb, false)
 end
 end
-local function mohammed(msg, matches)
+local function advisor(msg, matches)
   if matches[1] == 'تنظيف' and is_sudo(msg) then
     if msg.to.type == 'channel' then
     if tonumber(matches[2]) > 100000 or tonumber(matches[2]) < 1 then
@@ -36,7 +36,7 @@ return {
     patterns = {
         '^(تنظيف) (%d*)$'
     },
-    run = mohammed
+    run = advisor
 }
 
 
