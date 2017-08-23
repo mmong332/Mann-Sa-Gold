@@ -1,5 +1,5 @@
 do local _ = {
-  about_text "",
+  about_text "المطـورين - @Sudo_Sky - @Yi_5i",
   enabled_lang = {
     "arabic_lang",
     "catalan_lang",
