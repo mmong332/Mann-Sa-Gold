@@ -9,7 +9,7 @@
 --]]
 do
 function run(msg, matches)
-  if matches[1] == "الاوامر" and is_momod(msg) then
+  if matches[1] == "الاوامر" and not is_momod(msg) then
     return "هلا بيكـ حياتيـ😊❤️ [@"..msg.from.username.."]\n"
   .."  ".."\n"
   ..[[
@@ -32,7 +32,7 @@ function run(msg, matches)
 ..'🕵ᴄʜ📡: @XxMTxX'
 ------------------
 
-  elseif matches[1] == "م1" and is_momod(msg) then
+  elseif matches[1] == "م1" and not is_momod(msg) then
     return "هلا بيكـ حياتيـ😊❤️ [@"..msg.from.username.."]\n"
   .."  ".."\n"
   ..[[
@@ -46,13 +46,14 @@ function run(msg, matches)
 📍رفع اداري
 📍تنزيل اداري
 〰〰〰〰〰〰〰〰
-📍حظر - معرف+رد+ايدي
+📍حظر - معرف+ايدي
 📍الغاء حظر-معرف+ايدي
 〰〰〰〰〰〰〰〰
 📍منع + الكلمه
 📍الغاء منع + الكلمه
 〰〰〰〰〰〰〰〰
-📍كتم
+📍معرف +رد - كتم
+📍الغاء كتم - معرف+رد
 📍المكتومين :- لعرض قائمه المكتومين
 〰〰〰〰〰〰〰〰
 📍قائمه المنع:- اظهار الكلمات الممنوعه
@@ -68,7 +69,7 @@ function run(msg, matches)
 ------------------
 
 
-  elseif  matches[1] == "م2" and is_momod(msg) then 
+  elseif  matches[1] == "م2" and not is_momod(msg) then 
     return "هلا بيكـ حياتيـ😊❤️ [@"..msg.from.username.."]\n"
   .."  ".."\n"
   ..[[
@@ -92,7 +93,7 @@ function run(msg, matches)
 ..'🕵ᴄʜ📡: @XxMTxX'
 ------------------
 
-  elseif  matches[1] == "م3" and is_momod(msg) then 
+  elseif  matches[1] == "م3" and not is_momod(msg) then 
     return "هلا بيكـ حياتيـ😊❤️ [@"..msg.from.username.."]\n"
   .."  ".."\n"
   ..[[
