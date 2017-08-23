@@ -35,7 +35,12 @@ local function check_member_super(cb_extra, success, result)
           public = 'no',
           lock_rtl = 'no',
           lock_contacts = 'no',
-          lock_strict = 'no'
+          lock_strict = 'no',
+	  lock_tag = 'no',
+	  lock_fwd = 'no',
+	  lock_emoji = 'no',
+	  lock_username = 'no',	
+	  lock_join = 'no',				
         }
       }
       save_data(_config.moderation.data, data)
