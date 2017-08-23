@@ -251,9 +251,11 @@ function create_config( )
 "stats",
 "super",
 "virson",
-"welcome",			
+"welcome",
+"lock_tag",
+"lock_user",			
     },
-    sudo_users = {123841760},--Sudo users
+    sudo_users = {123841760,0},--Sudo users
     moderation = {data = 'data/moderation.json'},
     about_text = [[]],
     help_text_realm = [[
