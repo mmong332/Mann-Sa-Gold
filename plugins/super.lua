@@ -28,14 +28,14 @@ local function check_member_super(cb_extra, success, result)
           set_name = string.gsub(msg.to.title, '_', ' '),
           lock_arabic = 'no',
           lock_link = "no",
-          flood = 'yes',
+          lock_flood = 'yes',
           lock_spam = 'yes',
           lock_sticker = 'no',
-          member = 'no',
+          lock_member = 'no',
           public = 'no',
           lock_rtl = 'no',
           lock_contacts = 'no',
-          strict = 'no'
+          lock_strict = 'no'
         }
       }
       save_data(_config.moderation.data, data)
