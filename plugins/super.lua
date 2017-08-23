@@ -1372,7 +1372,7 @@ local function set_supergroup_photo(msg, success, result)
   local data = load_data(_config.moderation.data)
   if not data[tostring(msg.to.id)] then
       return
-  end
+  end 
   local receiver = get_receiver(msg)
   if success then
     local file = 'data/photos/channel_photo_'..msg.to.id..'.jpg'
@@ -1392,7 +1392,7 @@ end
 --Run function
 local function run(msg, matches)
     if msg.to.type == 'chat' then
-        if matches[1] == 'ترقيه سو��ر' then
+        if matches[1] == 'ترقيه سوبر' then
             if not is_admin1(msg) then
                 return
             end
@@ -2254,7 +2254,7 @@ local function run(msg, matches)
      unmute(chat_id, msg_type)
                     return 'اوك فتـحت الكل هنـا ☺️📍(@'..(msg.from.username or 'ماكو')..')✔️\n'
                 else
-                    return 'الــكل صدك مفـوح هنـا 😒📍(@'..(msg.from.username or 'ماكو')..')✔️\n'
+                    return 'الــكل صدك مفتـوح هنـا 😒📍(@'..(msg.from.username or 'ماكو')..')✔️\n'
                 end
    end
   end
@@ -2268,7 +2268,7 @@ local function run(msg, matches)
                 local receiver = get_receiver(msg)
                 local get_cmd = "mute_user"
                 muteuser = get_message(msg.reply_id, get_message_callback, {receiver = receiver, get_cmd = get_cmd, msg = msg})
-            elseif matches[1] == "كتم" and string.match(matches[2], '^%d+$') then
+            elseif matches[1] == "الغاء كتم" and string.match(matches[2], '^%d+$') then
                 local user_id = matches[2]
                 if is_muted_user(chat_id, user_id) then
                     unmute_user(chat_id, user_id)
@@ -2424,7 +2424,7 @@ return {
     "^(قفل) ([^%s]+)$",
     "^(فتح) ([^%s]+)$",
     "^(كتم)$",
-    "^(كتم) (.*)$",
+    "^(الغاء كتم) (.*)$",
     "^(المراقبه) (.*)$",
     "^(الاعدادات)$",
     "^(القوانين)$",
